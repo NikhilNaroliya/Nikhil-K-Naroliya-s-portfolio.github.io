@@ -1,87 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="style.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nikhil Kumar Naroliya's portfolio</title>
 </head>
 <body>
-    <h1>welcome to Nikhil's compenents library</h1>
-    <p>this library consist of the projects i have made using the html and css </p>
-    <hr>
+    <!-- navbar -->
+    <nav class="navigation">
+        <div class="nav-brand"> To Be An NEOGian</div>
+         <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+               
+                <a class="link" href="blogs.html">blogs</a>
+            </li>
+         </ul>
+       </nav>
+       <!-- header -->
+       <header class="hero"> 
+        
+        <img  class="hero-image" id="i1" src="yello proud.png"
+        width="200" 
+        height="200"/>
+       <h2 class="hero-heading"> iam a <span class="heading-inverted">developer</span></h2>
+        </header>
 
-    <h2>@typography </h2>
-    <h1>this is the biggest heading </h1>
-     <h2> this is the second biggest heading</h2>
-     <small> this is small heading</small>
-    <hr>
-     <h2>@containers</h2>
-
-   <h3>fluid containers</h3>
-   <div>this is   containers will go till end</div>
-<hr>
-   <h3>centered containers</h3>
-   <div>this is   containers will be in the centre</div>
-     <!-- accessibility tree  iske bare me padna hai-->
-     <!-- links -->
-     <a href="https://google.com">google primary</a>
-     <a href="https://google.com">google secondary</a>
-<hr>
-<h1>list</h1>
-<h2>unordered list</h2>
-<ul>
-<li>item 1</li>
-<li>item 2</li>
-<li>item 3</li>
-</ul>
-
-<div style="height: 30vh;">
-  <h3 >reverse order list</h3>
-   <ol>
-    <li> milk</li>
-    <li> potato</li>
-    <li> rice</li>
-   </ol> 
-   <hr>
-   <h1>@navbar</h1>
-   <nav>
-    <div>Iam brand</div>
-     <ul>
-        <li>
-            <a href="/">home</a>
-        </li>
-        <li>
-            <a href="/">about</a>
-        </li>
-        <li>
-            <a href="/">product</a>
-        </li>
-     </ul>
-   </nav> 
-   <hr>
-   <header> 
-   <h1>@header</h1>
-   <img id="i1" src="yello proud.png"
-   width="200" 
-   height="200"/>
-   <h1>heading inside hero</h1>
+        
+        <!-- off white section -->
+   
+    <section class="off-white">
+     <div class="container container-centre"></div>
+     <h1>Technologies</h1>
+     <p><strong>Iam familiar with html,css,js,c++</strong></p>
+ 
+    </section>
+    <!-- white section -->
+    <section class="section">
+        <div class="container container-centre">
+        <h1>projects</h1>
+        <p class="text"> my projects are really interesting i have used diffrerent Technologies to gain some experience how real world apps work </p>
+        <a  class="primary-link"href="https://www.google.com/">See Projects</a>
+    </div>
+        
+    </section>
+    <!-- off white for blogs -->
+    <section class="off-white">
+        <div class="container container-centre"></div>
+        <h1>Blogs</h1>
+        <p><strong>I like cricket and photography the most i have played in many tournaments recently in NIT-Agartala.</strong></p>
+    </div>
+        <a class="secondary-link" href="https://www.google.com/">Read Blogs</a>
     
-   </header> 
-   <hr>
-   <h2>@sections</h2>
-   <section>
-     <h3>white  section</h3>
-     <p> This will have white background </p>
-   </section>
-   <hr>
-   <footer>
-    <div>some headings inside footer dont use h1 or h2</div>
-     <ul>
-        <li>social media links</li>
-     </ul>
-
-   </footer>
-</div>
+       </section>
+       <!-- footer -->
+       <footer class="footer">
+        <div class="footer-header">Connect ME Throgh Social Accounts</div>
+         <ul class="social links-no-bullets">
+            <li class="list-item-inline"><a class="w" href="https://www.linkedin.com/in/nikhlnaroliya">linked in</a></li>
+            <li class="list-item-inline"><a class="w"href="https://github.com/NikhilNaroliya">github</a></li>
+         </ul>
+    
+       </footer>
 </body>
 </html>
