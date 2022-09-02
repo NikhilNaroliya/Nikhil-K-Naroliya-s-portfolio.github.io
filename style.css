@@ -21,18 +21,19 @@ body {
 }
 /* links */
 .primary-link {
-    display: block;
+     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
-    padding: 2px;
+    
+    width: 5rem; 
+    margin: auto;
     border: solid rgb(192, 148, 148) 1px;
     text-decoration: none;
     border-radius: 6px;
     
     background-color: #eda916eb;
     
-    margin: auto;
+    /* margin: auto; */
     color: var(--primary-color);
 }
 .secondary-link {
@@ -46,15 +47,30 @@ body {
     color: var(--primary-color);
 }
 .link{
-    color: black;
+    /* color: black; */
+    color: rgb(35, 34, 25);
     text-decoration: none;
     padding:0.5rem 1rem ;
 
     margin: 22px;
 }
+a:hover {
+    background-color:#fbbf24;
+    /* padding: 1rem;
+    margin: 1rem; */
+    border-radius: 10px;
+    height: auto;
+    
+    
+  }
 .link-active{
-    color: white;
-    text-shadow: #ca8a04;
+     color:white;
+     /* color: rgb(35, 34, 25); */
+    text-decoration: none;
+    padding:0.5rem 1rem ;
+
+    margin: 22px;
+     
 }
 /* list */
 .no-bullets
@@ -78,6 +94,7 @@ body {
     color: white;
     padding: 1 rem;
     border-bottom-left-radius: 1rem;
+    height: 70px;
 }
 .navigation.link{
     color: white;
@@ -168,6 +185,7 @@ body {
 }
 .quiz-para{
     margin-bottom: 2px;
+    text-align: center;
 }
 .button{
     
@@ -180,4 +198,12 @@ body {
 /* my blog images */
 .blog-image{
     margin: auto;
+}
+.sc{
+    background-color: #fbbf24;
+
+    border: 2px solid black;
+    color: white;
+     border-radius: 5px;
+     text-decoration: none;
 }
