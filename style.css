@@ -2,7 +2,13 @@ body {
     font-family: 'Tangerine', serif;
     font-size: 16px;
     text-shadow: 4px 4px 4px #aaa;
-  }
+  
+  
+     
+    background-image: url(blog-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
   :root{
     --primary-color:#ca8a04;
   }
@@ -135,13 +141,23 @@ a:hover {
     padding: 1rem;
  text-align: center;
 }
+
+.hero-image{
+    border-radius: 40%;
+}
 .off-white{
+    
+    background-image: url(tech4.jpg);
     text-align: center;
     border-bottom-left-radius: 2rem ;
-    background-color: #d4d4d4;
+    background-color: #f9fafb;
     margin: auto;
     height: 200px;
-    padding: 10px;
+    padding: 20px;
+
+}
+.project-footer{
+    max-height: max-content;
 }
 .section.text{
     margin: 20px;
@@ -151,13 +167,16 @@ a:hover {
 }
 
 .footer{
-    padding: 2px;
+    border-radius: 20px;
+    padding: 10px;
     margin: auto;
     text-align: center;
     background-color: #f59e0b;
-    padding: 2rem 1rem;
+    padding: 4rem 1rem;
     color: white;
     border-top-right-radius: 1rem;
+    background-image: url(social-final.jpg);
+    opacity: 1;
 }
 .footer.links{
     color: white;
