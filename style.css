@@ -9,9 +9,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
    }
-  :root{
-    --primary-color:#ca8a04;
-  }
+  /* :root{
+    
+  } */
   /* container */
   .container
   {
