@@ -97,13 +97,14 @@ a:hover {
 }
 /* navigation */
 .navigation
-{  
+{  border: 0.1rem solid  #f0c67d;
     background-image: url(navbar-image1.jpg);
     background-color: #f59e0b;
     color:black;
     padding: 1.5rem;
     border-radius:  1rem;
     height: 70px;
+    
 }
 .navigation.link{
     color: white;
@@ -190,12 +191,14 @@ a:hover {
     padding-inline-start: 0px;
 }
 .footer-header{
+    
     font-weight: bold;
     font-size: large;
 }
 .w{
+
     color: white;
-    border: 1px solid wheat;
+    border: 1px solid black;
     border-radius: 3px;
     text-decoration: none;
 }
