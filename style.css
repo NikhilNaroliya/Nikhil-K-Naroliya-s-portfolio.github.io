@@ -97,7 +97,7 @@ a:hover {
 }
 /* navigation */
 .navigation
-{  border: 0.1rem solid  #f0c67d;
+{  border: 0.1rem solid  white;
     background-image: url(navbar-image1.jpg);
     background-color: #f59e0b;
     color:black;
