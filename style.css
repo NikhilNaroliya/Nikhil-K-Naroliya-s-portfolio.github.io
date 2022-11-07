@@ -1,13 +1,15 @@
 body {
     font-family: cursive;
     font-size: 16px;
-    text-shadow: 4px 4px 4px #aaa;
+    text-shadow: 1px 1px 1px rgb(215, 215, 225);
   
   
      
-    background-image: url(blog-image.webp);
+    background-image: url(https://wallpaperaccess.com/full/269150.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: rgb(79, 73, 73);
+    
    }
   /* :root{
     
@@ -58,6 +60,8 @@ body {
     color: rgb(35, 34, 25);
     text-decoration: none;
     padding:0.5rem 1rem ;
+    border:1px solid black;
+    border-radius: 1rem;
 
     margin: 22px;
 }
@@ -98,8 +102,8 @@ a:hover {
 /* navigation */
 .navigation
 {  border: 0.1rem solid  white;
-    background-image: url(navbar-image1.jpg);
-    background-color: #f59e0b;
+    background-image: url(https://wallpaper.dog/large/5486783.png);
+    background-color: #f7f4ee;
     color:black;
     padding: 1.5rem;
     border-radius:  1rem;
@@ -177,11 +181,11 @@ a:hover {
     padding: 10px;
     margin: auto;
     text-align: center;
-    background-color: #f59e0b;
+    background-color: #c8bcbc;
     padding: 4rem 1rem;
     color: white;
     border-top-right-radius: 1rem;
-    background-image: url(social-final.jpg);
+    /* background-image: url(social-final.jpg); */
     opacity: 1;
 }
 .footer.links{
@@ -217,7 +221,7 @@ a:hover {
 .button{
     
     padding: 2px;
-    background-color: #f7f2f1;
+    background-color: #eeeae9;
     border-radius: 5px;
     margin-top: auto;
     border: 1px solid rgb(208, 228, 25);
